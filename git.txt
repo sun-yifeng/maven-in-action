@@ -17,7 +17,7 @@ git checkout -- test.txt                            恢复删除（操作错误�
 
 #添加到远程库
 ssh-keygen -t rsa -C "9339996@qq.com"               创建SSH Key
-git remote add origin git@github.com:sunyi-feng/project-name.git    关联到远程仓库
+git remote add origin git@github.com:sunyi-feng/project-name.git 关联到远程仓库(此地址到GitHub上复制)
 git push -u origin master                           推送分支到远程仓库并且关联master
 git push origin master                              推送分支到远程仓库（第二次操作）
 
@@ -67,7 +67,7 @@ git remote -v                                        查看远程库的信息（
 git push origin master                               推送master分支到远程库
 git push origin dev                                  推送dev   分支到远程库
 #多人协作-抓取分支
-git clone git@github.com:sunyi-feng/projetc-name.git  克隆远程的分支（只能拿到master）
+git clone git@github.com:sunyi-feng/projetc-name.git 克隆远程的分支（只能看到master）
 git checkout -b dev origin/dev                       创建dev分支
 git commit -m "do sth...."                           提交修改到本地dev
 git push origin dev                                  推送修改到远程dev
@@ -93,5 +93,11 @@ git clone git@github.com:sunyi-feng/bootstrap.git    从自己的账号下clone�
 #自定义
 .gitignore                                          忽略文件
 git config --global alias.co checkout               配置别名
+
+#Idea中使用问题
+1、出现错误：Push rejected: Push to origin/master was rejected，使用如下命令后，再次push代码则成功
+git pull origin master --allow-unrelated-histories
+2、出现错误：Could not read from remote repository
+Settings->Version Control->Git中，将SSH executable设置为Native即可
 
 
