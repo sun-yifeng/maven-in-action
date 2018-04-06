@@ -1,0 +1,36 @@
+mvn -h 显示帮助
+mvn help:system 显示环境变量
+#常用命令
+mvn clean 清理
+mvn compile 编译
+mvn package 打包
+mvn clean install -U 构建时强制更新最新依赖，默认是每天更新
+mvn install 部署构件到本地仓库
+mvn deploy  部署构件到远程仓库
+mvn package -Dmaven.test.skip=true 打包时忽略测试
+mvn install -Dmaven.test.skip=true 部署时忽略测试
+#反应堆裁剪
+mvn clean install -pl account-email,account-persis 构建指定的模块，多个模块用逗号分开
+mvn clean install -pl account-email -am 构建指定模块及父模块
+mvn clean install -pl account-parent -amd 构建指定模块及子模块
+mvn clean install -rf account-email 从指定模块开始，按照反应堆顺序（Reactor Build Order）构建模块。
+mvn clean install -pl account-parent -amd -rf account-email 指定开始、结束模块，按反应堆顺序构建模块
+#依赖优化
+mvn dependency:list 打印依赖
+mvn dependency:tree 打印依赖树
+mvn dependency:analyze 分析依赖
+mvn dependency:tree -Dverbose > tree.log 分析依赖树
+#插件绑定
+mvn verify 查看自定义绑定
+#测试命令
+mvn test 运行所有junit
+mvn test -Dtest=ClassNameTest 运行某个测试类
+mvn cobertura:cobertura 测试覆盖率分析报告
+mvn clean deploy site -deploye 部署项目站点
+#web页面测试
+mvn jetty:run
+#构件搜索(经常用到)
+http://mvnrepository.com
+http://repository.sonatype.org
+http://www.jarvana.com/jravana
+http://www.mvnbrowser.com

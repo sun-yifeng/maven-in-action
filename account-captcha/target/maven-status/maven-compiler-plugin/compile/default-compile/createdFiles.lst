@@ -1,0 +1,4 @@
+com/sunyf/mvnbook/account/captcha/RandomGenerator.class
+com/sunyf/mvnbook/account/captcha/AccountCaptchaService.class
+com/sunyf/mvnbook/account/captcha/AccountCaptchaException.class
+com/sunyf/mvnbook/account/captcha/AccountCaptchaServiceImpl.class

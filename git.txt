@@ -1,0 +1,97 @@
+#本地仓库操作
+git init                                            初始化git仓库
+git status                                          查看文件状态
+git add readme.txt                                  添加文件到git仓库
+git commit -m "wrote a readme file"                 提交文件到git仓库,加上注释
+git log                                             查看提交历史
+git reflog                                          查看命令历史
+git log --pretty=oneline                            查看历史记录（显示成单行）
+git reset --hard HEAD^                              回退到最新版本
+git reset --hard 3628164                            回退到某个版本
+git diff HEAD -- readme.txt                         查看工作区和版本库里面最新版本的区别
+git checkout -- readme.txt                          丢弃工作区的修改
+git reset HEAD file                                 把暂存区的修改撤销掉（unstage），重新放回工作区
+git rm test.txt                                     从git中删除
+git commit -m "remove test.txt"                     提交git删除
+git checkout -- test.txt                            恢复删除（操作错误）
+
+#添加到远程库
+ssh-keygen -t rsa -C "9339996@qq.com"               创建SSH Key
+git remote add origin git@github.com:sunyi-feng/project-name.git    关联到远程仓库
+git push -u origin master                           推送分支到远程仓库并且关联master
+git push origin master                              推送分支到远程仓库（第二次操作）
+
+#从远程库克隆
+git clone git@github.com:sunyi-feng/project-name.git
+
+#分支管理
+git branch                                          查看当前分支
+git branch dev                                      创建dev分支
+git checkout dev                                    切到dev分支
+git checkout -b dev                                 创建dev分支并切换到dev分支
+git checkout master                                 切换回master分支
+git merge dev                                       合并到当前分支（Fast-forward快进模式，无提交历史）
+git branch -d dev                                   删除dev分支
+
+#解决冲突
+git checkout -b feature1                            创建并切换分支
+git merge feature1                                  合并到当前分支（有冲突则需手工解决冲突才能提交）
+git log --graph --pretty=oneline --abbrev-commit    看到分支的合并情况
+git branch -d feature1                              合并后删除分支
+git merge --no-ff -m "merge with no-ff" dev         合并到当前分支（禁用Fast-Forward,写入提交历史）
+git log --graph --pretty=oneline --abbrev-commit    看分支历史
+
+#BUG分支
+git stash                                            贮藏工作区
+git checkout master                                  在master分支上修复bug
+git add readme.txt                                   提交修改到stage
+git commit -m "fix bug 101"                          提交修改到master
+git checkout master                                  切换到master分支
+git branch -d issue-101                              删除bug分支
+git checkout dev                                     回到工作区
+git stash list                                       查看工作区（有stash）
+git stash apply                                      恢复工作区
+git stash drop                                       删除stash
+git stash pop                                        恢复工作区并删除stash
+git stash list                                       查看工作区（无stash）
+
+#Feature分支
+git checkout -b feature-vulcan                       开发代号为Vulcan的新功能
+git checkout dev                                     开发完毕切回dev
+git branch -d feature-vulcan                         销毁代号为Vulcan的新功能（未合并，删除会失败）
+git branch -D feature-vulcan                         强行删除
+
+#多人协作-推送分支
+git remote                                           查看远程库的信息
+git remote -v                                        查看远程库的信息（显示可以抓取和推送的origin的地址）
+git push origin master                               推送master分支到远程库
+git push origin dev                                  推送dev   分支到远程库
+#多人协作-抓取分支
+git clone git@github.com:sunyi-feng/projetc-name.git  克隆远程的分支（只能拿到master）
+git checkout -b dev origin/dev                       创建dev分支
+git commit -m "do sth...."                           提交修改到本地dev
+git push origin dev                                  推送修改到远程dev
+git branch --set-upstream dev origin/dev             指定本地dev分支与远程origin/dev分支的链接
+git pull                                             抓取远程库最新的dev
+
+#标签管理
+git checkout master                                  切换到需要打标签的分支
+git tag v1.0                                         打标签
+git tag                                              查看所有标签
+git log --pretty=oneline --abbrev-commit             查看历史提交记录
+git tag v0.9 6224937                                 给某个历史提交打标签
+git show v0.9                                        查看标签信息
+git tag -s v0.2 -m "signed version 0.2 released" fec145a  打签名标签
+git tag -d v0.1                                      删除本地标签
+git push origin v1.0                                 推送标签到远程库
+git push origin --tags                               一次性推送全部尚未推送到远程的本地标签
+git push origin :refs/tags/v0.9                      删除远程标签
+
+#使用GitHub
+git clone git@github.com:sunyi-feng/bootstrap.git    从自己的账号下clone一个bootstrap项目
+
+#自定义
+.gitignore                                          忽略文件
+git config --global alias.co checkout               配置别名
+
+

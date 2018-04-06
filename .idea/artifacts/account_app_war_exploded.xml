@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="account-app:war exploded">
+    <output-path>$PROJECT_DIR$/account-web/target/account</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="account-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sunyf.mvnbook.account:account-service:1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:unknown" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/account-web/target/account/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="account-web/web/Web" />
+    </root>
+  </artifact>
+</component>

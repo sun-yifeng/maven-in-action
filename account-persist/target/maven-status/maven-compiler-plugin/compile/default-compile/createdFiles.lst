@@ -1,0 +1,4 @@
+com/sunyf/mvnbook/account/persist/Account.class
+com/sunyf/mvnbook/account/persist/AccountPersistServiceImpl.class
+com/sunyf/mvnbook/account/persist/AccountPersistService.class
+com/sunyf/mvnbook/account/persist/AccountPersistException.class

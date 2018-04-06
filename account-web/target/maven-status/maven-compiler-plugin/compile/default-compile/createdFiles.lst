@@ -1,0 +1,4 @@
+com/sunyf/mvnbook/account/web/ActivateServlet.class
+com/sunyf/mvnbook/account/web/LoginServlet.class
+com/sunyf/mvnbook/account/web/SignUpServlet.class
+com/sunyf/mvnbook/account/web/CaptchaImageServlet.class
