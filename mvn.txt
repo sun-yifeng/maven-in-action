@@ -43,6 +43,9 @@ ${project.groupId} 项目的groupId
 ${project.artifactId} 项目的artifactId
 ${project.version} 项目的version，等价${version}
 ${project.build.finalName} 打包名称，默认是${project.artifactId}-${project.version}
+${setting.localRepository} setting.xml的地址
+${user.home} 用户主目录
+${env.JAVA_HOME} JAVA环境变量
 #搜索构建的仓库服务(经常用到)
 http://mvnrepository.com
 http://repository.sonatype.org
@@ -51,5 +54,5 @@ http://www.mvnbrowser.com
 #nexus私服
 nexus -help 显示nexus的安装目录
 ./nexus start 启动nexus
-http://localhost:8081/  访问nexus,启动后要等一两分钟才能访问
+http://localhost:8081/  启动一两分钟后才能访问
 

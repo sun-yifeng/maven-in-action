@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97dbbaf9-3f8c-40d0-b167-55a9271352c4" name="Default" comment="maven in action">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-email/src/main/resources/service.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-service/src/main/resources/account-service.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account.war" afterPath="$PROJECT_DIR$/account-web/target/account.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/src/main/resources/account-service.xml" afterPath="$PROJECT_DIR$/account-service/src/main/resources/account-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-web/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvn.txt" afterPath="$PROJECT_DIR$/mvn.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,8 +53,8 @@
       <file leaf-file-name="mvn.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvn.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="149">
+              <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -545,7 +538,7 @@
       <updated>1522908767429</updated>
       <workItem from="1522908768986" duration="21722000" />
       <workItem from="1522995798984" duration="38344000" />
-      <workItem from="1523076058856" duration="7807000" />
+      <workItem from="1523076058856" duration="8283000" />
     </task>
     <task id="LOCAL-00001" summary="maven in action">
       <created>1523014635648</created>
@@ -597,7 +590,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67873000" />
+    <option name="totallyTimeSpent" value="68349000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -631,7 +624,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37251908" sideWeight="0.8311793" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671756" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3908397" sideWeight="0.8812601" order="5" side_tool="false" content_ui="tabs" x="0" y="46" width="1280" height="777" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3908397" sideWeight="0.8812601" order="5" side_tool="false" content_ui="tabs" x="0" y="46" width="1280" height="777" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32471728" sideWeight="0.49202734" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32471728" sideWeight="0.50797266" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1233,8 +1226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvn.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="149">
+          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
           <folding />
         </state>
       </provider>
