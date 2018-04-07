@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97dbbaf9-3f8c-40d0-b167-55a9271352c4" name="Default" comment="maven in action">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account-captcha/target/9p37hnhj.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account-captcha/target/y7rrvhku.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account-captcha/target/yibx2ix2.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/account-captcha-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-captcha/target/account-captcha-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/account-email-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-email/target/account-email-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/target/account-persist-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-persist/target/account-persist-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/target/account-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-service/target/account-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account.war" afterPath="$PROJECT_DIR$/account-web/target/account.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-captcha-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-captcha-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-email-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-email-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-persist-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-persist-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-captcha/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/surefire-reports/TEST-com.sunyf.mvnbook.account.captcha.AccountCaptchaServiceTest.xml" afterPath="$PROJECT_DIR$/account-captcha/target/surefire-reports/TEST-com.sunyf.mvnbook.account.captcha.AccountCaptchaServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/surefire-reports/TEST-com.sunyf.mvnbook.account.captcha.RandomGeneratorTest.xml" afterPath="$PROJECT_DIR$/account-captcha/target/surefire-reports/TEST-com.sunyf.mvnbook.account.captcha.RandomGeneratorTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/surefire-reports/com.sunyf.mvnbook.account.captcha.AccountCaptchaServiceTest.txt" afterPath="$PROJECT_DIR$/account-captcha/target/surefire-reports/com.sunyf.mvnbook.account.captcha.AccountCaptchaServiceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/surefire-reports/com.sunyf.mvnbook.account.captcha.RandomGeneratorTest.txt" afterPath="$PROJECT_DIR$/account-captcha/target/surefire-reports/com.sunyf.mvnbook.account.captcha.RandomGeneratorTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-email/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/surefire-reports/TEST-com.sunyf.mvnbook.account.email.AccountEmailServiceTest.xml" afterPath="$PROJECT_DIR$/account-email/target/surefire-reports/TEST-com.sunyf.mvnbook.account.email.AccountEmailServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/surefire-reports/com.sunyf.mvnbook.account.email.AccountEmailServiceTest.txt" afterPath="$PROJECT_DIR$/account-email/target/surefire-reports/com.sunyf.mvnbook.account.email.AccountEmailServiceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-persist/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/target/surefire-reports/TEST-com.sunyf.mvnbook.account.persist.AccountPersistServiceTest.xml" afterPath="$PROJECT_DIR$/account-persist/target/surefire-reports/TEST-com.sunyf.mvnbook.account.persist.AccountPersistServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/target/surefire-reports/com.sunyf.mvnbook.account.persist.AccountPersistServiceTest.txt" afterPath="$PROJECT_DIR$/account-persist/target/surefire-reports/com.sunyf.mvnbook.account.persist.AccountPersistServiceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-service/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/target/surefire-reports/TEST-com.sunyf.mvnbook.account.service.AccountServiceTest.xml" afterPath="$PROJECT_DIR$/account-service/target/surefire-reports/TEST-com.sunyf.mvnbook.account.service.AccountServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/target/surefire-reports/com.sunyf.mvnbook.account.service.AccountServiceTest.txt" afterPath="$PROJECT_DIR$/account-service/target/surefire-reports/com.sunyf.mvnbook.account.service.AccountServiceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-web/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvn.txt" afterPath="$PROJECT_DIR$/mvn.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.xml" afterPath="$PROJECT_DIR$/settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/git.txt" afterPath="$PROJECT_DIR$/git.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,11 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="70" column="66" lean-forward="false" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="git.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/git.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="56" lean-forward="false" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -162,7 +142,6 @@
         <option value="$PROJECT_DIR$/account-web/pom.xml" />
         <option value="$PROJECT_DIR$/account-web/src/main/resources/account-service.properties" />
         <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/git.txt" />
         <option value="$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/AccountEmailService.java" />
         <option value="$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/AccountEmailServiceImpl.java" />
         <option value="$PROJECT_DIR$/account-email/src/main/resources/service.properties" />
@@ -177,6 +156,7 @@
         <option value="$PROJECT_DIR$/mvn.txt" />
         <option value="$PROJECT_DIR$/settings.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/git.txt" />
       </list>
     </option>
   </component>
@@ -486,7 +466,7 @@
       <updated>1522908767429</updated>
       <workItem from="1522908768986" duration="21722000" />
       <workItem from="1522995798984" duration="38344000" />
-      <workItem from="1523076058856" duration="3020000" />
+      <workItem from="1523076058856" duration="3478000" />
     </task>
     <task id="LOCAL-00001" summary="maven in action">
       <created>1523014635648</created>
@@ -538,10 +518,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63086000" />
+    <option name="totallyTimeSpent" value="63544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -554,7 +535,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5629742" sideWeight="0.8311793" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671756" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5816794" sideWeight="0.8812601" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5816794" sideWeight="0.8812601" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32471728" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -1064,13 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvn.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1091,6 +1065,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="70" column="66" lean-forward="false" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="56" lean-forward="false" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
           <folding />
         </state>
       </provider>
