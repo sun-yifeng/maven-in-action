@@ -1,5 +1,5 @@
 mvn -h 显示帮助
-mvn help:system 显示环境变量
+mvn help:system 显示系统属性及环境变量
 #构建命令
 mvn clean 清理
 mvn clean compile 编译
@@ -35,3 +35,8 @@ http://mvnrepository.com
 http://repository.sonatype.org
 http://www.jarvana.com/jravana
 http://www.mvnbrowser.com
+#nexus私服
+nexus -help 显示nexus的安装目录
+./nexus start 启动nexus
+http://localhost:8081/  访问nexus,启动后要等一两分钟才能访问
+

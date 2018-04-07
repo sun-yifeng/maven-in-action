@@ -58,6 +58,20 @@
         </dependencies>
     </dependencyManagement>
 
+   <!--部署构件到私服-->
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Project Release Repository</name>
+            <url>http://localhost:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>Project Snapshot Repository</name>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <pluginManagement>
             <plugins>

@@ -24,6 +24,7 @@
     <proxies>
     </proxies>
 
+    <!--远程仓库服务的认证信息-->
     <servers>
         <server>
             <id>nexus</id>
@@ -32,6 +33,7 @@
         </server>
     </servers>
 
+    <!--远程仓库镜像到私服，发挥私服的作用-->
     <mirrors>
         <mirror>
             <id>nexus</id>
@@ -60,8 +62,8 @@
                 </pluginRepository>
             </pluginRepositories>
         </profile>
-
     </profiles>
+    <!--激活nexus的配置-->
     <activeProfiles>
         <activeProfile>nexus</activeProfile>
     </activeProfiles>
