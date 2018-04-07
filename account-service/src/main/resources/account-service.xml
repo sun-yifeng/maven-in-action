@@ -9,4 +9,5 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 		<property name="accountEmailService" ref="accountEmailService" />
 		<property name="accountCaptchaService" ref="accountCaptchaService" />
 	</bean>
+
 </beans>

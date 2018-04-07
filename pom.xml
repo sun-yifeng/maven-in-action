@@ -10,11 +10,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>account-captcha</module>
         <module>account-email</module>
         <module>account-persist</module>
-        <module>account-web</module>
+        <module>account-captcha</module>
         <module>account-service</module>
+        <module>account-web</module>
     </modules>
 
     <properties>
