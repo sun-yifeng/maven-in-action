@@ -6,8 +6,8 @@
       <id>sunyf</id>
       <name>sunyf</name>
       <email>sunyf@changeme.com</email>
-      <password>this_still_should_be_encrypted</password>
-      <activated>false</activated>
+      <password>this_should_be_encrypted</password>
+      <activated>true</activated>
     </account>
   </accounts> 
 </account-persist>

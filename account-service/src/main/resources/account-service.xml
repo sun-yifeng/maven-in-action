@@ -5,9 +5,9 @@
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
 	<bean id="accountService" class="com.sunyf.mvnbook.account.service.AccountServiceImpl">
-		<property name="accountPersistService" ref="accountPersistService" />
-		<property name="accountEmailService" ref="accountEmailService" />
 		<property name="accountCaptchaService" ref="accountCaptchaService" />
+		<property name="accountEmailService" ref="accountEmailService" />
+		<property name="accountPersistService" ref="accountPersistService" />
 	</bean>
 
 </beans>

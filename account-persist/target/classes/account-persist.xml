@@ -5,7 +5,7 @@
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
 	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-		<property name="location" value="classpath:account-service.properties" />
+		<property name="location" value="classpath:account-persist.properties" />
 	</bean>
 
 	<!--初始化这个bean的时候找不到persist.file-->

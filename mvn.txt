@@ -7,7 +7,7 @@ mvn clean package 打包
 mvn clean test 单元测试
 mvn clean install 安装构件到本地仓库
 mvn clean deploy  部署构件到远程仓库
-mvn clean install -U 安装时强制更新最新依赖快照，默认是每天更新
+mvn clean install -U 强制取最新的依赖快照，默认是每天更新，这个地方是个坑
 mvn clean package -Dmaven.test.skip=true 打包时忽略测试
 mvn clean install -Dmaven.test.skip=true 安装时忽略测试
 #反应堆裁剪
@@ -41,8 +41,8 @@ ${version} 项目版本
 ${project.build.sourceDirectory} 主源代码目录
 ${project.build.testSourceDirectory} 测试代码目录
 ${project.build.directory} 构建输出目录target
-${project.outputDirectory} 编译输出目录target/classes
-${project.testOutputDirectory} 测试代码输出目录target/test-classes
+${project.build.outputDirectory} 编译输出目录target/classes
+${project.build.testOutputDirectory} 测试代码输出目录target/test-classes
 ${project.groupId} 项目的groupId
 ${project.artifactId} 项目的artifactId
 ${project.version} 项目的version，等价${version}

@@ -27,10 +27,11 @@ public class AccountServiceTest {
 
     @Before
     public void prepare() throws Exception {
+        // 加载其他模块
         String[] springConfigFiles = {
+                "account-captcha.xml",
                 "account-email.xml",
                 "account-persist.xml",
-                "account-captcha.xml",
                 "account-service.xml"
         };
 

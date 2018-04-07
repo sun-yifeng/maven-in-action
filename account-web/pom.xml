@@ -45,6 +45,7 @@
     <build>
         <!--最终的项目名称-->
         <finalName>account</finalName>
+        <!--开启资源过滤-->
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
