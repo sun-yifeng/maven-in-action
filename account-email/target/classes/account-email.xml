@@ -21,8 +21,7 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 		</property>
 	</bean>
 
-	<bean id="accountEmailService"
-		class="com.sunyf.mvnbook.account.email.AccountEmailServiceImpl">
+	<bean id="accountEmailService" class="com.sunyf.mvnbook.account.email.AccountEmailServiceImpl">
 		<property name="javaMailSender" ref="javaMailSender" />
 		<property name="systemEmail" value="${email.systemEmail}" />
 	</bean>

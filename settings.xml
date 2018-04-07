@@ -7,8 +7,9 @@
    | The path to the local repository maven will use to store artifacts.
    |
    | Default: ${user.home}/.m2/repository
-    <localRepository>/Users/sunyifeng/.m2/repository</localRepository>
-    -->
+   -->
+    <localRepository>${user.home}/.m2/repository</localRepository>
+
 
     <!-- pluginGroups
    | This is a list of additional group identifiers that will be searched when resolving plugins by their prefix, i.e.

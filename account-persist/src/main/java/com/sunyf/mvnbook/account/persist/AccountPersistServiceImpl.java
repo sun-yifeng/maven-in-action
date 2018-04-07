@@ -16,6 +16,7 @@ import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 
 public class AccountPersistServiceImpl implements AccountPersistService {
+
     private static final String ELEMENT_ROOT = "account-persist";
     private static final String ELEMENT_ACCOUNTS = "accounts";
     private static final String ELEMENT_ACCOUNT = "account";
@@ -37,8 +38,7 @@ public class AccountPersistServiceImpl implements AccountPersistService {
         this.file = file;
     }
 
-    public Account createAccount(Account account)
-            throws AccountPersistException {
+    public Account createAccount(Account account) throws AccountPersistException {
         Document doc = readDocument();
 
         Element accountsEle = doc.getRootElement().element(ELEMENT_ACCOUNTS);

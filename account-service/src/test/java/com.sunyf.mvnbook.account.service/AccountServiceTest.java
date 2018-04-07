@@ -45,63 +45,63 @@ public class AccountServiceTest {
 
         accountService = (AccountService) ctx.getBean("accountService");
 
-//        greenMail = new GreenMail(ServerSetup.SMTP);
-//        greenMail.setUser("test@sunyf.com", "123456");
-//        greenMail.start();
-//
-//        File persistDataFile = new File("target/test-classes/persist-data.xml");
-//        if (persistDataFile.exists()) {
-//            persistDataFile.delete();
-//        }
+        //greenMail = new GreenMail(ServerSetup.SMTP);
+        greenMail = new GreenMail(new ServerSetup(8099,null,"smtp"));
+        greenMail.setUser("test@sunyf.com", "123456");
+        greenMail.start();
+
+        File persistDataFile = new File("target/test-classes/persist-data.xml");
+        if (persistDataFile.exists()) {
+            persistDataFile.delete();
+        }
     }
 
     @Test
     public void testAccountService() throws Exception {
-//        // 1. Get captcha
-//        String captchaKey = accountService.generateCaptchaKey();
-//        accountService.generateCaptchaImage(captchaKey);
-//        String captchaValue = "12345";
-//
-//        // 2. Submit sign up Request
-//        SignUpRequest signUpRequest = new SignUpRequest();
-//        signUpRequest.setCaptchaKey(captchaKey);
-//        signUpRequest.setCaptchaValue(captchaValue);
-//        signUpRequest.setId("sunyf");
-//        signUpRequest.setEmail("test@sunyfxu.com");
-//        signUpRequest.setName("Juven Xu");
-//        signUpRequest.setPassword("admin123");
-//        signUpRequest.setConfirmPassword("admin123");
-//        signUpRequest.setActivateServiceUrl("http://localhost:8080/account/activate");
-//        accountService.signUp(signUpRequest);
-//
-//        // 3. Read activation link
-//        greenMail.waitForIncomingEmail(2000, 1);
-//        Message[] msgs = greenMail.getReceivedMessages();
-//        assertEquals(1, msgs.length);
-//        assertEquals("Please Activate Your Account", msgs[0].getSubject());
-//        String activationLink = GreenMailUtil.getBody(msgs[0]).trim();
-//
-//        // 3a. Try login but not activated
-//        try {
-//            accountService.login("sunyf", "admin123");
-//            fail("Disabled account shouldn't be able to log in.");
-//        } catch (AccountServiceException e) {
-//        }
-//
-//        // 4. Activate account
-//        String activationCode = activationLink.substring(activationLink.lastIndexOf("=") + 1);
-//        accountService.activate(activationCode);
-//
-//        // 5. Login with correct id and password
-//        accountService.login("sunyf", "admin123");
-//
-//        // 5a. Login with incorrect password
-//        try {
-//            accountService.login("sunyf", "admin456");
-//            fail("Password is incorrect, shouldn't be able to login.");
-//        } catch (AccountServiceException e) {
-//        }
-        System.out.println("send mail...");
+        // 1. Get captcha
+        String captchaKey = accountService.generateCaptchaKey();
+        accountService.generateCaptchaImage(captchaKey);
+        String captchaValue = "12345";
+
+        // 2. Submit sign up Request
+        SignUpRequest signUpRequest = new SignUpRequest();
+        signUpRequest.setCaptchaKey(captchaKey);
+        signUpRequest.setCaptchaValue(captchaValue);
+        signUpRequest.setId("sunyf");
+        signUpRequest.setEmail("test@sunyf.com");
+        signUpRequest.setName("sunyf");
+        signUpRequest.setPassword("admin123");
+        signUpRequest.setConfirmPassword("admin123");
+        signUpRequest.setActivateServiceUrl("http://localhost:8080/account/activate");
+        accountService.signUp(signUpRequest);
+
+        // 3. Read activation link
+        greenMail.waitForIncomingEmail(2000, 1);
+        Message[] msgs = greenMail.getReceivedMessages();
+        assertEquals(1, msgs.length);
+        assertEquals("Please Activate Your Account", msgs[0].getSubject());
+        String activationLink = GreenMailUtil.getBody(msgs[0]).trim();
+
+        // 3a. Try login but not activated
+        try {
+            accountService.login("sunyf", "admin123");
+            fail("Disabled account shouldn't be able to log in.");
+        } catch (AccountServiceException e) {
+        }
+
+        // 4. Activate account
+        String activationCode = activationLink.substring(activationLink.lastIndexOf("=") + 1);
+        accountService.activate(activationCode);
+
+        // 5. Login with correct id and password
+        accountService.login("sunyf", "admin123");
+
+        // 5a. Login with incorrect password
+        try {
+            accountService.login("sunyf", "admin456");
+            fail("Password is incorrect, shouldn't be able to login.");
+        } catch (AccountServiceException e) {
+        }
 
     }
 

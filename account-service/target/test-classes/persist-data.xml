@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<account-persist> 
+  <accounts>
+    <account>
+      <id>sunyf</id>
+      <name>sunyf</name>
+      <email>test@sunyf.com</email>
+      <password>admin123</password>
+      <activated>true</activated>
+    </account>
+  </accounts> 
+</account-persist>
