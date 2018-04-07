@@ -7,7 +7,7 @@ mvn clean package 打包
 mvn clean test 单元测试
 mvn clean install 安装构件到本地仓库
 mvn clean deploy  部署构件到远程仓库
-mvn clean install -U 构建时强制更新最新依赖快照，默认是每天更新
+mvn clean install -U 安装时强制更新最新依赖快照，默认是每天更新
 mvn clean package -Dmaven.test.skip=true 打包时忽略测试
 mvn clean install -Dmaven.test.skip=true 安装时忽略测试
 #反应堆裁剪
