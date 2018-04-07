@@ -14,7 +14,7 @@ mvn clean install -Dmaven.test.skip=true 安装时忽略测试
 mvn clean install -pl module-name1,module-name2 构建指定的模块，多个模块用逗号分开
 mvn clean install -pl module-name -am 构建指定模块及父模块
 mvn clean install -pl module-name -amd 构建指定模块及子模块
-mvn clean install -rf module-name 从指定模块开始，按照反应堆顺序（Reactor Build Order）构建模块。
+mvn clean install -rf module-name 从指定模块开始，按照反应堆顺序（Reactor Build Order）构建模块
 mvn clean install -pl module-begin -amd -rf module-end 指定开始、结束模块，按反应堆顺序构建模块
 #依赖优化
 mvn dependency:list 打印依赖
@@ -30,7 +30,7 @@ mvn cobertura:cobertura 测试覆盖率分析报告
 mvn clean deploy site -deploye 部署项目站点
 #web页面测试
 mvn jetty:run
-#构件搜索(经常用到)
+#搜索构建的仓库服务(经常用到)
 http://mvnrepository.com
 http://repository.sonatype.org
 http://www.jarvana.com/jravana
