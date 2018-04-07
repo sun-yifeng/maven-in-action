@@ -30,6 +30,10 @@ mvn cobertura:cobertura 测试覆盖率分析报告
 mvn clean deploy site -deploye 部署项目站点
 #web页面测试
 mvn jetty:run
+#版本管理
+mvn release:prepare 版本准备、打版本标签、提交到版本库
+mvn release:rollback 回退版本，需要手动删除版本标签
+mvn release:perform 发布版本，签出源代码并执行mvn deploy
 #内置属性
 ${basedir} 项目根目录
 ${version} 项目版本
