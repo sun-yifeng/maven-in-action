@@ -47,7 +47,6 @@ git rebase –continue                                处理完冲突继续合�
 git rebase –skip                                    跳过
 git rebase –abort                                   终止合并
 
-
 #BUG分支
 git stash                                            贮藏工作区
 git checkout master                                  在master分支上修复bug

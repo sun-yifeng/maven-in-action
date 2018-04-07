@@ -8,6 +8,7 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 		<property name="location" value="classpath:account-email.properties" />
 	</bean>
 
+    <!-- spring2.5只支持一个Placeholder
 	<bean id="javaMailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
 		<property name="protocol" value="${email.protocol}" />
 		<property name="host" value="${email.host}" />
@@ -20,9 +21,23 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 			</props>
 		</property>
 	</bean>
+	-->
+
+	<bean id="javaMailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="protocol" value="smtp" />
+		<property name="host" value="localhost" />
+		<property name="port" value="8099" />
+		<property name="username" value="test@sunyf.com" />
+		<property name="password" value="123456" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+			</props>
+		</property>
+	</bean>
 
 	<bean id="accountEmailService" class="com.sunyf.mvnbook.account.email.AccountEmailServiceImpl">
 		<property name="javaMailSender" ref="javaMailSender" />
-		<property name="systemEmail" value="${email.systemEmail}" />
+		<property name="systemEmail" value="test1@sunyf.com" />
 	</bean>
 </beans>

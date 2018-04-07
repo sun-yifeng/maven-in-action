@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=gb2312" language="java" %>
+<%@ page contentType="text/html; charset=utf-8" language="java" %>
 <%@ page import="com.sunyf.mvnbook.account.service.*,
   org.springframework.context.ApplicationContext,
   org.springframework.web.context.support.WebApplicationContextUtils"%>
@@ -24,18 +24,18 @@ String captchaKey = accountervice.generateCaptchaKey();
 
 <div class="text-field">
 
-<h2>×¢²áĞÂÕË»§</h2>
+<h2>æ³¨å†Œæ–°è´¦æˆ·</h2>
 <form name="signup" action="signup" method="post">
-<label>ÕË»§ID£º</label><input type="text" name="id"></input><br/>
-<label>Email£º</label><input type="text" name="email"></input><br/>
-<label>ÏÔÊ¾Ãû³Æ£º</label><input type="text" name="name"></input><br/>
-<label>ÃÜÂë£º</label><input type="password" name="password"></input><br/>
-<label>È·ÈÏÃÜÂë£º</label><input type="password" name="confirm_password"></input><br/>
-<label>ÑéÖ¤Âë£º</label><input type="text" name="captcha_value"></input><br/>
+<label>è´¦æˆ·IDï¼š</label><input type="text" name="id"></input><br/>
+<label>Emailï¼š</label><input type="text" name="email"></input><br/>
+<label>æ˜¾ç¤ºåç§°ï¼š</label><input type="text" name="name"></input><br/>
+<label>å¯†ç ï¼š</label><input type="password" name="password"></input><br/>
+<label>ç¡®è®¤å¯†ç ï¼š</label><input type="password" name="confirm_password"></input><br/>
+<label>éªŒè¯ç ï¼š</label><input type="text" name="captcha_value"></input><br/>
 <input type="hidden" name="captcha_key" value="<%=captchaKey%>"/>
 <img src="<%=request.getContextPath()%>/captcha_image?key=<%=captchaKey%>"/>
 </br>
-<button>È·ÈÏ²¢Ìá½»</button>
+<button>ç¡®è®¤å¹¶æäº¤</button>
 </form>
 </div>
 

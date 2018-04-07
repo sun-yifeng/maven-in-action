@@ -5,9 +5,9 @@
     <account>
       <id>sunyf</id>
       <name>sunyf</name>
-      <email>sunyf@changeme.com</email>
-      <password>this_still_should_be_encrypted</password>
-      <activated>false</activated>
+      <email>test@sunyf.com</email>
+      <password>admin123</password>
+      <activated>true</activated>
     </account>
   </accounts> 
 </account-persist>

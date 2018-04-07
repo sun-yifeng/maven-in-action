@@ -8,9 +8,13 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 		<property name="location" value="classpath:account-persist.properties" />
 	</bean>
 
-	<!--初始化这个bean的时候找不到persist.file-->
+	<!--初始化这个bean的时候找不到persist.file
 	<bean id="accountPersistService" class="com.sunyf.mvnbook.account.persist.AccountPersistServiceImpl">
 		<property name="file" value="${persist.file}" />
+	</bean>
+	-->
+	<bean id="accountPersistService" class="com.sunyf.mvnbook.account.persist.AccountPersistServiceImpl">
+		<property name="file" value="target/test-classes/persist-data.xml" />
 	</bean>
 
 </beans>
