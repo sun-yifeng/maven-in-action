@@ -2,55 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97dbbaf9-3f8c-40d0-b167-55a9271352c4" name="Default" comment="maven in action">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account-captcha/target/xdmsx74t.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account-email/src/main/resources/service.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account-email/target/classes/service.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/account-captcha-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-captcha/target/account-captcha-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/account-email-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-email/target/account-email-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/classes/com/sunyf/mvnbook/account/email/AccountEmailException.class" afterPath="$PROJECT_DIR$/account-email/target/classes/com/sunyf/mvnbook/account/email/AccountEmailException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/classes/com/sunyf/mvnbook/account/email/AccountEmailServiceImpl.class" afterPath="$PROJECT_DIR$/account-email/target/classes/com/sunyf/mvnbook/account/email/AccountEmailServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/test-classes/com/sunyf/mvnbook/account/email/AccountEmailServiceTest.class" afterPath="$PROJECT_DIR$/account-email/target/test-classes/com/sunyf/mvnbook/account/email/AccountEmailServiceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/target/account-persist-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-persist/target/account-persist-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/target/classes/com/sunyf/mvnbook/account/persist/AccountPersistServiceImpl.class" afterPath="$PROJECT_DIR$/account-persist/target/classes/com/sunyf/mvnbook/account/persist/AccountPersistServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/target/account-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-service/target/account-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/target/test-classes/com/sunyf/mvnbook/account/service/AccountServiceTest.class" afterPath="$PROJECT_DIR$/account-service/target/test-classes/com/sunyf/mvnbook/account/service/AccountServiceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account.war" afterPath="$PROJECT_DIR$/account-web/target/account.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-captcha-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-captcha-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-email-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-email-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-persist-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-persist-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/account-web/target/account/WEB-INF/lib/account-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-captcha/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/surefire-reports/TEST-com.sunyf.mvnbook.account.captcha.AccountCaptchaServiceTest.xml" afterPath="$PROJECT_DIR$/account-captcha/target/surefire-reports/TEST-com.sunyf.mvnbook.account.captcha.AccountCaptchaServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/surefire-reports/TEST-com.sunyf.mvnbook.account.captcha.RandomGeneratorTest.xml" afterPath="$PROJECT_DIR$/account-captcha/target/surefire-reports/TEST-com.sunyf.mvnbook.account.captcha.RandomGeneratorTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/surefire-reports/com.sunyf.mvnbook.account.captcha.AccountCaptchaServiceTest.txt" afterPath="$PROJECT_DIR$/account-captcha/target/surefire-reports/com.sunyf.mvnbook.account.captcha.AccountCaptchaServiceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-captcha/target/surefire-reports/com.sunyf.mvnbook.account.captcha.RandomGeneratorTest.txt" afterPath="$PROJECT_DIR$/account-captcha/target/surefire-reports/com.sunyf.mvnbook.account.captcha.RandomGeneratorTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/AccountEmailException.java" afterPath="$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/AccountEmailException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/AccountEmailService.java" afterPath="$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/AccountEmailService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/AccountEmailServiceImpl.java" afterPath="$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/AccountEmailServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/src/main/resources/account-email.xml" afterPath="$PROJECT_DIR$/account-email/src/main/resources/account-email.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/src/test/java/com/sunyf/mvnbook/account/email/AccountEmailServiceTest.java" afterPath="$PROJECT_DIR$/account-email/src/test/java/com/sunyf/mvnbook/account/email/AccountEmailServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/src/test/resources/service.properties" afterPath="$PROJECT_DIR$/account-email/src/test/resources/service.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/classes/account-email.xml" afterPath="$PROJECT_DIR$/account-email/target/classes/account-email.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-email/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/surefire-reports/TEST-com.sunyf.mvnbook.account.email.AccountEmailServiceTest.xml" afterPath="$PROJECT_DIR$/account-email/target/surefire-reports/TEST-com.sunyf.mvnbook.account.email.AccountEmailServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/surefire-reports/com.sunyf.mvnbook.account.email.AccountEmailServiceTest.txt" afterPath="$PROJECT_DIR$/account-email/target/surefire-reports/com.sunyf.mvnbook.account.email.AccountEmailServiceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-email/target/test-classes/service.properties" afterPath="$PROJECT_DIR$/account-email/target/test-classes/service.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/src/main/java/com/sunyf/mvnbook/account/persist/AccountPersistServiceImpl.java" afterPath="$PROJECT_DIR$/account-persist/src/main/java/com/sunyf/mvnbook/account/persist/AccountPersistServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/src/main/resources/account-persist.xml" afterPath="$PROJECT_DIR$/account-persist/src/main/resources/account-persist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/target/classes/account-persist.xml" afterPath="$PROJECT_DIR$/account-persist/target/classes/account-persist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-persist/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/target/surefire-reports/TEST-com.sunyf.mvnbook.account.persist.AccountPersistServiceTest.xml" afterPath="$PROJECT_DIR$/account-persist/target/surefire-reports/TEST-com.sunyf.mvnbook.account.persist.AccountPersistServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-persist/target/surefire-reports/com.sunyf.mvnbook.account.persist.AccountPersistServiceTest.txt" afterPath="$PROJECT_DIR$/account-persist/target/surefire-reports/com.sunyf.mvnbook.account.persist.AccountPersistServiceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/src/test/java/com.sunyf.mvnbook.account.service/AccountServiceTest.java" afterPath="$PROJECT_DIR$/account-service/src/test/java/com.sunyf.mvnbook.account.service/AccountServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/src/test/resources/account-service.properties" afterPath="$PROJECT_DIR$/account-service/src/test/resources/account-service.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-service/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/target/surefire-reports/TEST-com.sunyf.mvnbook.account.service.AccountServiceTest.xml" afterPath="$PROJECT_DIR$/account-service/target/surefire-reports/TEST-com.sunyf.mvnbook.account.service.AccountServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/target/surefire-reports/com.sunyf.mvnbook.account.service.AccountServiceTest.txt" afterPath="$PROJECT_DIR$/account-service/target/surefire-reports/com.sunyf.mvnbook.account.service.AccountServiceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-service/target/test-classes/account-service.properties" afterPath="$PROJECT_DIR$/account-service/target/test-classes/account-service.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/account-web/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvn.txt" afterPath="$PROJECT_DIR$/mvn.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.xml" afterPath="$PROJECT_DIR$/settings.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RandomGeneratorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account-captcha/src/test/java/com/sunyf/mvnbook/account/captcha/RandomGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-59">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AccountCaptchaServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account-captcha/src/test/java/com/sunyf/mvnbook/account/captcha/AccountCaptchaServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -160,8 +102,18 @@
       <file leaf-file-name="mvn.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvn.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="30">
+              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="git.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/git.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -575,7 +527,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522908767429</updated>
       <workItem from="1522908768986" duration="21722000" />
-      <workItem from="1522995798984" duration="35304000" />
+      <workItem from="1522995798984" duration="35959000" />
     </task>
     <task id="LOCAL-00001" summary="maven in action">
       <created>1523014635648</created>
@@ -627,7 +579,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57026000" />
+    <option name="totallyTimeSpent" value="57681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -654,7 +606,7 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5872534" sideWeight="0.8812601" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32471728" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32471728" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1076,14 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/icegreen/greenmail/1.3.1b/greenmail-1.3.1b.jar!/com/icegreen/greenmail/smtp/SmtpServer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1267,10 +1211,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/git.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvn.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
