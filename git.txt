@@ -91,7 +91,7 @@ git clone git@github.com:sun-yifeng/bootstrap.git    从自己的账号下clone�
 git config --global alias.co checkout               配置别名
 
 #注意事项
-1、出现错误：Push rejected: Push to origin/master was rejected，使用如下命令后，再次push代码则成功
+1、出现错误：Push rejected: Push to origin/master was rejected，使用如下命令（告诉系统合并不相关的历史内容），再次push：
 git pull origin master --allow-unrelated-histories
 2、出现错误：Could not read from remote repository 在idea中配置：
 Settings->Version Control->Git中，将SSH executable设置为Native即可
