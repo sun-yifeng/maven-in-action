@@ -61,4 +61,5 @@ nexus -help 提示nexus主目录及启动方法 <br>
 ./nexus start 启动nexus <br>
 /usr/local/nexus-3.9.0-01-mac/nexus-3.9.0-01/bin/nexus start 启动nexus <br>
 http://localhost:8081/  启动一两分钟后才能访问 <br>
+# 登录用户密码admin/admin123
 

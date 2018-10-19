@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97dbbaf9-3f8c-40d0-b167-55a9271352c4" name="Default" comment="maven in action">
-      <change afterPath="$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,34 +29,36 @@
     <session id="-880920457">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
           <entry key="java" value="3" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="3" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="18" />
+          <entry key="md" value="32" />
           <entry key="txt" value="59" />
           <entry key="xml" value="37" />
         </counts>
@@ -65,6 +66,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="18" />
+          <entry key="Markdown" value="32" />
           <entry key="PLAIN_TEXT" value="59" />
           <entry key="XML" value="37" />
         </counts>
@@ -85,11 +87,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="1140">
+              <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="103">
+                <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -106,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="165">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#212#213#0" expanded="true" />
@@ -219,12 +243,12 @@
         <option value="$PROJECT_DIR$/account-web/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/account-web/src/main/webapp/signup.jsp" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/git.txt" />
         <option value="$PROJECT_DIR$/account-captcha/pom.xml" />
         <option value="$PROJECT_DIR$/mvn.txt" />
         <option value="$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/MainTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -281,6 +305,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -289,34 +314,10 @@
               <item name="maven-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="maven-in-action" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="maven-in-action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="account-email" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-in-action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="account-persist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-in-action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="account-persist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-in-action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="account-persist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -521,7 +522,9 @@
       <workItem from="1539938518987" duration="265000" />
       <workItem from="1539938842198" duration="13000" />
       <workItem from="1539938996910" duration="57000" />
-      <workItem from="1539939362814" duration="67000" />
+      <workItem from="1539939362814" duration="280000" />
+      <workItem from="1539945506908" duration="32000" />
+      <workItem from="1539947512150" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="maven in action">
       <created>1523014635648</created>
@@ -573,7 +576,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95060000" />
+    <option name="totallyTimeSpent" value="95351000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -594,14 +597,14 @@
       <window_info id="Web" order="3" sideWeight="0.50797266" side_tool="true" weight="0.32471728" />
       <window_info id="Favorites" order="4" sideWeight="0.50797266" side_tool="true" weight="0.32471728" />
       <window_info id="Capture Tool" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49202734" visible="true" weight="0.39256865" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49202734" visible="true" weight="0.40549272" />
       <window_info id="Structure" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.64491653" />
       <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49353796" weight="0.326284" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32671756" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49676898" weight="0.32824427" />
       <window_info anchor="bottom" id="Spring" order="4" weight="0.32671756" />
-      <window_info anchor="bottom" x="0" y="46" width="1280" height="777" id="Terminal" order="5" sideWeight="0.8812601" weight="0.48489425" />
+      <window_info anchor="bottom" x="0" y="46" width="1280" height="777" id="Terminal" order="5" sideWeight="0.8812601" visible="true" weight="0.5876133" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.1187399" side_tool="true" weight="0.24427481" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32928678" />
@@ -635,9 +638,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="maven in action" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/account-email/target/test-classes/account-email.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/account-email/target/test-classes/account-email.xml" />
     <entry file="file://$PROJECT_DIR$/account-email/target/classes/account-email.properties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -821,9 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/account-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -884,22 +881,22 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mvn.txt" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="186">
-            <caret line="59" column="32" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account-email/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/AccountEmailException.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -908,12 +905,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account-email/account-email.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/account-email/src/main/java/com/sunyf/mvnbook/account/email/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="165">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#212#213#0" expanded="true" />
@@ -922,10 +916,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+    <entry file="file://$PROJECT_DIR$/account-email/account-email.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="103">
+            <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
