@@ -55,8 +55,13 @@ http://mvnrepository.com
 http://repository.sonatype.org
 http://www.jarvana.com/jravana
 http://www.mvnbrowser.com
-#nexus私服
-nexus -help 提示nexus主目录及启动方法
-./nexus start 启动nexus
-http://localhost:8081/  启动一两分钟后才能访问
+#nexus私服启动的步骤如下
+#nexus的启动方法
+nexus -help
+#nexus的主要目录
+which nexus
+#启动nexus
+/usr/local/nexus-3.9.0-01-mac/nexus-3.9.0-01/bin/nexus start
+#启动一两分钟后才能访问
+http://localhost:8081/
 
