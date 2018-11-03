@@ -56,7 +56,7 @@ http://mvnrepository.com <br>
 http://repository.sonatype.org <br>
 http://www.jarvana.com/jravana <br>
 http://www.mvnbrowser.com <br>
-# nexus私服
+# IDE新建项目时启动nexux，否则新建的项目错误不好排查
 nexus -help 提示nexus主目录及启动方法 <br>
 ./nexus start 启动nexus <br>
 /usr/local/nexus-3.9.0-01-mac/nexus-3.9.0-01/bin/nexus start 启动nexus <br>
