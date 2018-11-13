@@ -51,7 +51,7 @@ ${project.build.finalName} 打包名称，默认是${project.artifactId}-${proje
 ${setting.localRepository} setting.xml的地址 <br>
 ${user.home} 用户主目录 <br>
 ${env.JAVA_HOME} JAVA环境变量 <br>
-# 搜索构建的仓库服务(经常用到)
+# 在本地私服中，搜索不到依赖时，要到下列仓库查找
 http://mvnrepository.com <br>
 http://repository.sonatype.org <br>
 http://www.jarvana.com/jravana <br>
@@ -61,5 +61,5 @@ nexus -help 提示nexus主目录及启动方法 <br>
 ./nexus start 启动nexus <br>
 /usr/local/nexus-3.9.0-01-mac/nexus-3.9.0-01/bin/nexus start 启动nexus <br>
 http://localhost:8081/  启动一两分钟后才能访问 <br>
-# 登录用户密码admin/admin123
+登录用户密码admin/admin123
 
