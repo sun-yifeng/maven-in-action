@@ -24,57 +24,6 @@
       <FILTER>com.sunyf.mvnbook.account.email.*</FILTER>
     </SUITE>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-880920457">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="11" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="fm" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="3" />
-          <entry key="md" value="4" />
-          <entry key="txt" value="1" />
-          <entry key="vi" value="1" />
-          <entry key="xml" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="3" />
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="18" />
-          <entry key="md" value="135" />
-          <entry key="txt" value="73" />
-          <entry key="vi" value="199" />
-          <entry key="xml" value="37" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="18" />
-          <entry key="Markdown" value="135" />
-          <entry key="PLAIN_TEXT" value="272" />
-          <entry key="XML" value="37" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="account-parent" />
   </component>
@@ -228,11 +177,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
-  </component>
+  <component name="ProjectId" id="1Vc4SE6WFhJkxiSlCh7O843HtFo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -260,7 +205,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539938582027" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.3218391" />
@@ -299,7 +244,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.MainTest">
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -335,6 +280,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sunyf.mvnbook.account.captcha" />
       <option name="MAIN_CLASS_NAME" value="com.sunyf.mvnbook.account.captcha.AccountCaptchaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -350,6 +296,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sunyf.mvnbook.account.persist" />
       <option name="MAIN_CLASS_NAME" value="com.sunyf.mvnbook.account.persist.AccountPersistServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -365,6 +312,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sunyf.mvnbook.account.service" />
       <option name="MAIN_CLASS_NAME" value="com.sunyf.mvnbook.account.service.AccountServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -388,12 +336,14 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -401,21 +351,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MainTest" />
       <item itemvalue="JUnit.AccountCaptchaServiceTest" />
       <item itemvalue="JUnit.RandomGeneratorTest.testGetRandomString" />
       <item itemvalue="JUnit.AccountPersistServiceTest" />
       <item itemvalue="JUnit.AccountServiceTest" />
-      <item itemvalue="Application.MainTest" />
     </list>
     <recent_temporary>
       <list>
