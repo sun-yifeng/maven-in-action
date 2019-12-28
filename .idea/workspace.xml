@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97dbbaf9-3f8c-40d0-b167-55a9271352c4" name="Default" comment="maven in action">
+    <list default="true" id="97dbbaf9-3f8c-40d0-b167-55a9271352c4" name="Default" comment="不要总是在本地私服搜索组件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +28,7 @@
     <session id="-880920457">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="11" />
           <entry key="project.open.time.2" value="3" />
@@ -61,7 +60,7 @@
         <counts>
           <entry key="java" value="18" />
           <entry key="md" value="135" />
-          <entry key="txt" value="59" />
+          <entry key="txt" value="73" />
           <entry key="vi" value="199" />
           <entry key="xml" value="37" />
         </counts>
@@ -70,7 +69,7 @@
         <counts>
           <entry key="JAVA" value="18" />
           <entry key="Markdown" value="135" />
-          <entry key="PLAIN_TEXT" value="258" />
+          <entry key="PLAIN_TEXT" value="272" />
           <entry key="XML" value="37" />
         </counts>
       </usages-collector>
@@ -80,20 +79,7 @@
     <favorites_list name="account-parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="320">
-                <caret line="63" selection-start-line="63" selection-end-line="63" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -479,7 +465,7 @@
       <workItem from="1541254216863" duration="13000" />
       <workItem from="1541481597368" duration="175000" />
       <workItem from="1541488184555" duration="1292000" />
-      <workItem from="1542082743480" duration="121000" />
+      <workItem from="1542082743480" duration="212000" />
     </task>
     <task id="LOCAL-00001" summary="maven in action">
       <created>1523014635648</created>
@@ -495,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523014838806</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="不要总是在本地私服搜索组件">
+      <created>1542082899243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542082899243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -531,7 +524,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97766000" />
+    <option name="totallyTimeSpent" value="97857000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -544,7 +537,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -626,7 +618,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maven in action" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven in action" />
+    <MESSAGE value="不要总是在本地私服搜索组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="不要总是在本地私服搜索组件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/account-captcha/src/main/resources/account-captcha.xml">
@@ -918,7 +911,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="320">
+          <first_editor relative-caret-position="945">
             <caret line="63" selection-start-line="63" selection-end-line="63" />
           </first_editor>
           <second_editor />
