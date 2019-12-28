@@ -1,3 +1,4 @@
+#在github上创建项目之后，有提示命令（步骤），如何关联本地地面并push.
 git --help                                          显示帮助
 #本地仓库操作
 git init                                            初始化git仓库
