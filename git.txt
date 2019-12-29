@@ -3,8 +3,9 @@ git --help                                          显示帮助
 #本地仓库操作
 git init                                            初始化git仓库
 git status                                          查看文件状态
-git add readme.txt                                  添加文件到git仓库
-git commit -m "wrote a readme file"                 提交文件到git仓库,加上注释
+git add readme.txt                                  添加文件到暂存区（staged状态）
+git add -A                                          添加所有文件到暂存区（staged状态）
+git commit -m "wrote a readme file"                 提交文件到git版本库（当前分支head）,加上注释
 git log                                             查看提交历史
 git reflog                                          查看命令历史
 git log --pretty=oneline                            查看历史记录（显示成单行）
