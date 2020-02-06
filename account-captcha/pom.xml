@@ -18,12 +18,13 @@
     </properties>
 
     <dependencies>
+        <!--
         <dependency>
             <groupId>com.google.code.kaptcha</groupId>
             <artifactId>kaptcha</artifactId>
             <version>${kaptcha.version}</version>
-            <!--<classifier>jdk15</classifier>-->
         </dependency>
+         -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
