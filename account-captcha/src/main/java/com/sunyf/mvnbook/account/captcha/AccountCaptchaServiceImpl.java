@@ -12,13 +12,13 @@ import javax.imageio.ImageIO;
 
 import org.springframework.beans.factory.InitializingBean;
 
-import com.google.code.kaptcha.impl.DefaultKaptcha;
-import com.google.code.kaptcha.util.Config;
+//import com.google.code.kaptcha.impl.DefaultKaptcha;
+//import com.google.code.kaptcha.util.Config;
 
 // 实现了SpringFramework的InitializingBean接口
 public class AccountCaptchaServiceImpl implements AccountCaptchaService, InitializingBean {
 
-    private DefaultKaptcha producer; //验证码生成器
+    //private DefaultKaptcha producer; //验证码生成器
 
     private Map<String, String> captchaMap = new HashMap<String, String>();
 
@@ -26,11 +26,11 @@ public class AccountCaptchaServiceImpl implements AccountCaptchaService, Initial
 
     private int textCount = 0;
 
-    //Spring初始化Bean对象的时候调用此方法
+    /*Spring初始化Bean对象的时候调用此方法
     public void afterPropertiesSet() throws Exception {
         producer = new DefaultKaptcha();
         producer.setConfig(new Config(new Properties()));
-    }
+    }*/
 
     //生成随机验证码
     public String generateCaptchaKey() {
@@ -60,8 +60,10 @@ public class AccountCaptchaServiceImpl implements AccountCaptchaService, Initial
             textCount = (textCount + 1) % preDefinedTexts.size();
             return text;
         } else {
-            return producer.createText();
+            //return producer.createText();
+            return null;
         }
+
     }
 
     //生成验证码图片
@@ -73,15 +75,16 @@ public class AccountCaptchaServiceImpl implements AccountCaptchaService, Initial
             throw new AccountCaptchaException("Captch key '" + captchaKey + "' not found!");
         }
 
-        BufferedImage image = producer.createImage(text);
+        //BufferedImage image = producer.createImage(text);
 
         ByteArrayOutputStream out = new ByteArrayOutputStream();
 
+        /*
         try {
             ImageIO.write(image, "jpg", out);
         } catch (IOException e) {
             throw new AccountCaptchaException("Failed to write captcha stream!", e);
-        }
+        }*/
 
         return out.toByteArray();
     }
@@ -100,6 +103,11 @@ public class AccountCaptchaServiceImpl implements AccountCaptchaService, Initial
         } else {
             return false;
         }
+
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
 
     }
 }

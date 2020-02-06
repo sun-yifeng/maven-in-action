@@ -18,7 +18,7 @@
     </properties>
 
     <dependencies>
-        <!--
+        <!-- 要手工添加此依赖，见https://blog.csdn.net/lancelet223/article/details/78941489
         <dependency>
             <groupId>com.google.code.kaptcha</groupId>
             <artifactId>kaptcha</artifactId>

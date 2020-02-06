@@ -1,4 +1,4 @@
-gti .log
+# git .log
 /runtime
 /vendor
 /.idea
