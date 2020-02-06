@@ -6,24 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="account-app" />
-        <module name="account-capcha" />
-        <module name="account-captcha" />
-        <module name="account-email" />
-        <module name="account-persist" />
         <module name="account-service" />
+        <module name="account-email" />
         <module name="account-web" />
+        <module name="account-persist" />
+        <module name="account-captcha" />
+        <module name="account-capcha" />
+        <module name="account-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account-app" target="1.5" />
       <module name="account-capcha" target="1.5" />
-      <module name="account-captcha" target="1.5" />
-      <module name="account-email" target="1.5" />
+      <module name="account-captcha" target="1.6" />
+      <module name="account-email" target="1.6" />
       <module name="account-parent" target="1.5" />
-      <module name="account-persist" target="1.5" />
-      <module name="account-service" target="1.5" />
-      <module name="account-web" target="1.5" />
+      <module name="account-persist" target="1.6" />
+      <module name="account-service" target="1.6" />
+      <module name="account-web" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
