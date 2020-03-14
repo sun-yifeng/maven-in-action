@@ -22,8 +22,9 @@
    | The path to the local repository maven will use to store artifacts.
    |
    | Default: ${user.home}/.m2/repository
+     不要改这个地址，与idea中local repository一致
    -->
-    <localRepository>D:/repository</localRepository>
+    <localRepository>${user.home}/.m2/repository</localRepository>
 
 
     <!-- pluginGroups
