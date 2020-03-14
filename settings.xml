@@ -3,7 +3,7 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
 		  
-	<!-- 参考 https://www.cnblogs.com/jingmoxukong/p/6050172.html
+	<!-- https://www.cnblogs.com/jingmoxukong/p/6050172.html
 	
 	    一、settings.xml文件一般存在于两个位置：
 		1.全局配置: ${M2_HOME}/conf/settings.xml
@@ -36,7 +36,6 @@
         <pluginGroup>org.sonatype.plugins</pluginGroup>
         <pluginGroup>org.mortbay.jetty</pluginGroup>
     </pluginGroups>
-
 
     <proxies>
 		<!--代理元素包含配置代理时需要的信息 
@@ -109,14 +108,16 @@
 		 
     </mirrors>
 	
-    <!-- -->
+    <!-- 此处的profiles注释掉，因为URL地址跟mirror不一致，导致项目中下载依赖出错！
+		<id/>profile的唯一标识</id>
+		<activation>自动触发profile的条件逻辑</activation />
+		<repositories>jar包远程仓库的地址</repositories>
+		<pluginRepositories>插件仓库的远程地址</pluginRepositories> 
+		
     <profiles>
-        <profile>
-			<!-- profile的唯一标识 -->
+        <profile> 
             <id>nexus</id>
-			<!-- 自动触发profile的条件逻辑 -->
 			<activation />
-			<!-- jar包的远程仓库列表 -->
             <repositories>
                 <repository>
                     <id>central</id>
@@ -125,7 +126,6 @@
                     <snapshots><enabled>true</enabled></snapshots>
                 </repository>
             </repositories>
-			<!-- 插件的远程仓库列表 -->
             <pluginRepositories>
                 <pluginRepository>
                     <id>central</id>
@@ -135,9 +135,8 @@
                 </pluginRepository>
             </pluginRepositories>
         </profile> 
-		
-		
-    </profiles> 
+			
+    </profiles> -->
 	
     <!-- 激活nexus的配置 --> 
     <activeProfiles>
