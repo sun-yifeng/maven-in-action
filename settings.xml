@@ -2,13 +2,28 @@
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
-
+		  
+	<!-- 参考 https://www.cnblogs.com/jingmoxukong/p/6050172.html
+	
+	    一、settings.xml文件一般存在于两个位置：
+		1.全局配置: ${M2_HOME}/conf/settings.xml
+		2.用户配置: user.home/.m2/settings.xmlnote：用户配置优先于全局配置。{user.home} 和和所有其他系统属性只能在3.0+版本上使用。请注意windows和Linux使用变量的区别;
+		配置优先级从高到低：pom.xml> user settings > global settings
+		如果这些文件同时存在，在应用配置时，会合并它们的内容，如果有重复的配置，优先级高的配置会覆盖优先级低的。
+		
+	    二、maven中设置仓库的地方有4个，仓库优先级为：
+	    1.本地仓库(localRepositories)；
+		2.settings.xml文件中profile中的repositories仓库；
+		3.项目（project）中pom.xml中设置的仓库；
+		4.settings.xml文件中mirrors全局仓库；
+	-->
+	
     <!-- localRepository
    | The path to the local repository maven will use to store artifacts.
    |
    | Default: ${user.home}/.m2/repository
    -->
-    <localRepository>${user.home}/.m2/repository</localRepository>
+    <localRepository>D:/repository</localRepository>
 
 
     <!-- pluginGroups
@@ -16,12 +31,33 @@
    | when invoking a command line like "mvn prefix:goal". Maven will automatically add the group identifiers
    | "org.apache.maven.plugins" and "org.codehaus.mojo" if these are not already contained in the list.
    |-->
+   <!--当我们使用某个插件，并且没有在命令行为其提供组织Id（groupId）的时候，Maven就会使用该列表。 -->
     <pluginGroups>
         <pluginGroup>org.sonatype.plugins</pluginGroup>
         <pluginGroup>org.mortbay.jetty</pluginGroup>
     </pluginGroups>
 
+
     <proxies>
+		<!--代理元素包含配置代理时需要的信息 
+		<proxy> -->
+			  <!--代理的唯一定义符，用来区分不同的代理元素。 
+			  <id>myproxy</id> -->
+			  <!--该代理是否是激活的那个。true则激活代理。当我们声明了一组代理，而某个时候只需要激活一个代理的时候，该元素就可以派上用处。 
+			  <active>true</active> -->
+			  <!--代理的协议。 协议://主机名:端口，分隔成离散的元素以方便配置。 
+			  <protocol>http</protocol> -->
+			  <!--代理的主机名。协议://主机名:端口，分隔成离散的元素以方便配置。 
+			  <host>proxy.somewhere.com</host> -->
+			  <!--代理的端口。协议://主机名:端口，分隔成离散的元素以方便配置。 
+			  <port>8080</port> -->
+			  <!--代理的用户名，用户名和密码表示代理服务器认证的登录名和密码。 
+			  <username>proxyuser</username> -->
+			  <!--代理的密码，用户名和密码表示代理服务器认证的登录名和密码。 
+			  <password>somepassword</password> -->
+			  <!--不该被代理的主机名列表。该列表的分隔符由代理服务器指定；例子中使用了竖线分隔符，使用逗号分隔也很常见。 
+			  <nonProxyHosts>*.google.com|ibiblio.org</nonProxyHosts>
+		</proxy> -->
     </proxies>
 
     <!--远程仓库服务的认证信息-->
@@ -33,38 +69,79 @@
         </server>
     </servers>
 
-    <!--远程仓库镜像到私服，发挥私服的作用-->
+    <!-- 
+	     1、oschain的私服镜像已经关闭，不要再使用；
+	     2、org.apache.maven.plugins相关插件在仓库中没有，注释掉即可（非必须）；
+		 3、mirror的优先级按照英文字母顺序生效；
+	-->
     <mirrors>
+	    <!-- 本地仓库 --> 
         <mirror>
             <id>nexus</id>
+			<name>local maven</name>
             <mirrorOf>*</mirrorOf>
-            <url>http://localhost:8081/repository/maven-public/</url>
-        </mirror>
+			<url>http://localhost:8081/repository/maven-public/</url>
+        </mirror> 
+		
+        <!-- 阿里云仓库 
+        <mirror>
+            <id>alimaven</id>
+            <mirrorOf>central</mirrorOf>
+            <name>aliyun maven</name>
+            <url>https://maven.aliyun.com/nexus/content/repositories/central/</url>
+        </mirror> -->
+		
+		<!-- 中央仓库1 
+        <mirror>
+            <id>repo1</id>
+             <mirrorOf>central</mirrorOf>
+            <name>Human Readable Name for this Mirror.</name>
+            <url>http://repo1.maven.org/maven2/</url> 
+         </mirror> -->
+		 
+         <!-- 中央仓库2 
+         <mirror>
+             <id>repo2</id>
+             <mirrorOf>central</mirrorOf>
+             <name>Human Readable Name for this Mirror.</name>
+             <url>http://repo2.maven.org/maven2/</url> 
+         </mirror> -->
+		 
     </mirrors>
-
+	
+    <!-- -->
     <profiles>
         <profile>
+			<!-- profile的唯一标识 -->
             <id>nexus</id>
+			<!-- 自动触发profile的条件逻辑 -->
+			<activation />
+			<!-- jar包的远程仓库列表 -->
             <repositories>
                 <repository>
                     <id>central</id>
-                    <url>https://repo1.maven.org/maven2/</url>
+                    <url>https://repo1.maven.org/maven2/</url>  
                     <releases><enabled>true</enabled></releases>
                     <snapshots><enabled>true</enabled></snapshots>
                 </repository>
             </repositories>
+			<!-- 插件的远程仓库列表 -->
             <pluginRepositories>
                 <pluginRepository>
                     <id>central</id>
-                    <url>https://repo1.maven.org/maven2/</url>
+                    <url>https://repo1.maven.org/maven2/</url> 
                     <releases><enabled>true</enabled></releases>
                     <snapshots><enabled>true</enabled></snapshots>
                 </pluginRepository>
             </pluginRepositories>
-        </profile>
-    </profiles>
-    <!--激活nexus的配置-->
+        </profile> 
+		
+		
+    </profiles> 
+	
+    <!-- 激活nexus的配置 --> 
     <activeProfiles>
         <activeProfile>nexus</activeProfile>
-    </activeProfiles>
+    </activeProfiles> 
+	
 </settings>
