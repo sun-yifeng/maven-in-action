@@ -62,6 +62,27 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- maven中设置仓库的地方有4个，仓库优先级为：
+         1、本地仓库(localRepositories) ；
+         2、settings.xml文件中profile中的repositories仓库；
+         3、项目（project）中pom.xml中设置的仓库；
+         4、settings.xml文件中mirrors全局仓库；
+     -->
+    <!-- 默认中央仓库无法满足项目的需求时，在项目中指定其他远程仓库-->
+    <repositories>
+        <repository>
+            <id>local</id>
+            <name>Local Repository</name>
+            <url>http://localhost:8081/repository/maven-public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
    <!--部署构件到私服-->
     <distributionManagement>
         <repository>
