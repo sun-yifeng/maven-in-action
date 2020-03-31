@@ -62,4 +62,7 @@ nexus -help 提示nexus主目录及启动方法 <br>
 /usr/local/nexus-3.9.0-01-mac/nexus-3.9.0-01/bin/nexus start 启动nexus <br>
 http://localhost:8081/  启动一两分钟后才能访问 <br>
 登录用户密码admin/admin123
+# 安装本地包
+mvn install:install-file -DgroupId=org.apache.maven.plugins -DartifactId=maven-assembly-plugin -Dversion=2.4 -Dpackaging=jar -Dfile=/C:/Users/sunyifeng/Downloads/maven-assembly-plugin-2.4.jar
+
 
