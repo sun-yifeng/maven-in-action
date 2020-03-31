@@ -139,9 +139,9 @@
 			
     </profiles> -->
 	
-    <!-- 激活nexus的配置 --> 
+    <!-- 激活nexus的配置  
     <activeProfiles>
         <activeProfile>nexus</activeProfile>
-    </activeProfiles> 
+    </activeProfiles> -->
 	
 </settings>
