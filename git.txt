@@ -43,7 +43,7 @@ git log --graph --pretty=oneline --abbrev-commit    看到分支的合并情况
 git branch -d feature1                              合并后删除分支
 git merge --no-ff -m "merge with no-ff" dev         合并到当前分支（禁用Fast-Forward,写入提交历史）
 git log --graph --pretty=oneline --abbrev-commit    看分支历史
-#解决冲突rebase(变基，能够将分叉的分支重新合并）
+#解决冲突rebase(变基，把分叉的提交历史“整理”成一条直线）
 见 https://www.liaoxuefeng.com/wiki/896043488029600/1216289527823648 或 https://www.jianshu.com/p/f7ed3dd0d2d8
 git rebase feature2                                 合并分支
 git rebase –continue                                处理完冲突继续合并
